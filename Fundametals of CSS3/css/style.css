@@ -1,0 +1,224 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+/* h1 {
+  color: green;
+} */
+
+body {
+  background-color: #f4f4f4; /* Light Grey */
+  color: #555555; /* Dark Grey */
+  /* font-family: Arial, Helvetica, sans-serif; */
+  /* font-size: 16px; */
+  /* font-weight: bold; */
+  /* font-weight: 400; */
+  /* font-weight: normal; */
+  font: normal 16px Arial, Helvetica, sans-serif;
+  line-height: 1.6em;
+  /* line-height: 3px; */
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: green;
+}
+
+a:visited {
+  /* color: black; */
+}
+
+.container {
+  /* width: 960px; */
+  width: 80%;
+  margin: auto;
+}
+
+.button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+}
+
+.button:hover {
+  background: red;
+  color: #fff;
+}
+
+.clr {
+  clear: both;
+}
+
+.box-1 {
+  background-color: #333; /* Dark Grey - Same as #333333 (6 times)*/
+  color: #fff; /* White */
+  /* border-right: 5px red solid;
+  border-left: 5px red solid;
+  border-top: 5px red solid;
+  border-bottom: 5px red solid; */
+  border-width: 3px;
+  border-bottom-width: 10px;
+  border-top-style: dotted;
+  border: 5px red solid;
+  /* padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px; */
+  padding: 20px;
+  margin-top: 20px;
+  margin: 20px 0;
+}
+
+.box-1 h1 {
+  font-family: Tahoma;
+  font-weight: 800;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.2em; /* Usually with em */
+  word-spacing: 1em;
+}
+
+.box-2 {
+  border: 3px dotted #ccc; /* Grey */
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.categories {
+  border: 1px #ccc solid; /* Grey */
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.categories h2 {
+  text-align: center;
+}
+
+.categories ul {
+  padding: 0;
+  padding-left: 20px;
+  list-style: square;
+  list-style: none;
+}
+
+.categories li {
+  padding-bottom: 6px;
+  border-bottom: dotted 1px #333; /* Dark Grey */
+  list-style-image: url('../images/check.png');
+}
+
+.my-form {
+  padding: 20px;
+}
+
+.my-form .form-group {
+  padding-bottom: 15px;
+}
+
+.my-form label {
+  display: block;
+}
+
+.my-form input[type='text'],
+.my-form textarea {
+  padding: 8px;
+  width: 100%;
+}
+
+/* .my-form input[type='submit'] {
+  background-color: #333; 
+  color: #fff; 
+  padding: 10px 15px;
+  border: none;
+} */
+
+.block {
+  float: left;
+  width: 33.3%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#main-block {
+  float: left;
+  width: 70%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+#sidebar {
+  float: right;
+  width: 30%;
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.p-box {
+  width: 800px;
+  height: 500px;
+  border: 1px solid #000;
+  margin-top: 30px;
+  position: relative;
+  /* ROMLIS MIMART  GINDA AIRCHIO ELEMENTI GADAADGILO*/
+  /* UNDA IYOS MSHOBELI ELEMENTI */
+  /* RELATIVE */
+  /* background-image: url('../images/bgimage.jpg'); */
+  background-image: url('../images/bgimage.jpg');
+  background-repeat: no-repeat;
+  background-position: 100px 200px;
+  background-position: center top;
+}
+
+.p-box h1 {
+  position: absolute;
+  /* ROMELI ELEMENTI GINDA KONKRETULAD GADAADGILDES ARCHEUL ELEMENTTAN MIMARTEBASHI  */
+  /* UNDA IYOS SHVILOBILI ELEMENTI */
+  /* ABSOLUTE */
+  top: 100px;
+  left: 200px;
+}
+
+.p-box h2 {
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+}
+
+.fix-me {
+  position: fixed;
+  /* to make pop-up like thing */
+  top: 400px;
+}
+
+.my-list li:first-child {
+  background: red;
+}
+
+.my-list li:last-child {
+  background: blue;
+}
+
+/* mexute shvili */
+.my-list li:nth-child(5) {
+  background: yellow;
+}
+
+/* luwebi */
+.my-list li:nth-child(even) {
+  background: grey;
+}
